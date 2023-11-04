@@ -37,7 +37,8 @@
   <hr />
 
   <!-- TODO #4 - Loop over the search results to display all job fields. -->
-    <div class="job-container" th:each=" job : ${jobs}">
+    <div class="job-container">
+<!--         th:each=" job : ${jobs}">-->
         <p th:replace="~{fragments :: table-listing}"></p>
 <!--    <table>-->
 <!--        <tr th:each="job : ${jobs}">-->

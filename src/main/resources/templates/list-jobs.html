@@ -12,7 +12,8 @@
 </div>
   <!-- TODO #1 - Use a loop to display job results in a table. -->
 
-    <div class="job-container" th:each=" job : ${jobs}">
+    <div class="job-container">
+<!--        th:each=" job : ${jobs}">-->
 
         <p th:replace="~{fragments :: table-listing}">
 <!--            <tr>-->
