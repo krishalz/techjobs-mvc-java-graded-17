@@ -11,7 +11,6 @@ import java.util.HashMap;
  */
 @Controller
 public class HomeController {
-
     @GetMapping(value = "/")
     public String index(Model model) {
 

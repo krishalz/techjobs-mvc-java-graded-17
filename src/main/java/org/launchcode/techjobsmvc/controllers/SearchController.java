@@ -10,7 +10,6 @@ import java.util.ArrayList;
 
 import static org.launchcode.techjobsmvc.controllers.ListController.columnChoices;
 
-
 /**
  * Created by LaunchCode
  */
@@ -41,6 +40,5 @@ public class SearchController {
         model.addAttribute("columns", columnChoices);
         return "search";
     }
-
 }
 
